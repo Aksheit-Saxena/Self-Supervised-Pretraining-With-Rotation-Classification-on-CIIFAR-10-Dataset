@@ -21,7 +21,7 @@ Split the dataset in 2 parts (A) 40000 and (B) 10000 each with equal number of s
 5. Once this self-supervised pretraining is done, strip the classification layer and add a classification layer for CIFAR-10 classification this is finetuned on the set B for the task of image classification.
 6. Log the loss(cross entropy) and accuracies for both the pre-training task and classfication task.
 
-You are free tou use ML API of your choice. Your work will be checked for plagiarism!!
+
 
 ### Citations and helpful references 
 [1]. https://www.youtube.com/watch?v=8L10w1KoOU8&t=694s <br>
