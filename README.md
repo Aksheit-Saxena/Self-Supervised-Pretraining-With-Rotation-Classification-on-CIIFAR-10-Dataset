@@ -2,9 +2,9 @@
 
 One important self-training task is the task of rotation classification. Here given a set of unlabeled images, we randomly rotate it to either of the following angles {0, 90, 180, 270} degrees and train a image rotation classifier which predicts by what angle the initial image has been rotated to generate the current image. The problem is set up as a classification problem since we only rotate our images by a fixed set of angles as mentioned before and the corresponding ground truth labels being {0, 1, 2, 3}.
 
-<center>
-<img src="./fig/Self-training-rot.png" width="524" height="300">
-</center>
+
+![Uploading image.png…]()
+
 
 Once the self-training based pretraining is done, we strip away the final classification layer(which is a linear layer) and add Convolutional or linear layers as per the downstream task's requirement.
 
