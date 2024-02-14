@@ -1,9 +1,11 @@
-# Self-Supervised-Pretraining-With-Rotation-Classification-on-CIIFAR-10-Dataset
+<img width="750" alt="image" src="https://github.com/Aksheit-Saxena/Self-Supervised-Pretraining-With-Rotation-Classification-on-CIIFAR-10-Dataset/assets/58588004/645f8448-5c8f-4ec0-891f-ad5022b06aa9"># Self-Supervised-Pretraining-With-Rotation-Classification-on-CIIFAR-10-Dataset
 
 One important self-training task is the task of rotation classification. Here given a set of unlabeled images, we randomly rotate it to either of the following angles {0, 90, 180, 270} degrees and train a image rotation classifier which predicts by what angle the initial image has been rotated to generate the current image. The problem is set up as a classification problem since we only rotate our images by a fixed set of angles as mentioned before and the corresponding ground truth labels being {0, 1, 2, 3}.
 
 
-![Uploading image.png…]()
+
+<img width="750" alt="image" src="https://github.com/Aksheit-Saxena/Self-Supervised-Pretraining-With-Rotation-Classification-on-CIIFAR-10-Dataset/assets/58588004/9f7da086-6f5d-4b85-8aac-490594894911">
+
 
 
 Once the self-training based pretraining is done, we strip away the final classification layer(which is a linear layer) and add Convolutional or linear layers as per the downstream task's requirement.
