@@ -22,8 +22,7 @@ Split the dataset in 2 parts (A) 40000 and (B) 10000 each with equal number of s
 6. Log the loss(cross entropy) and accuracies for both the pre-training task and classfication task.
 
 
-Link to Pretrained and fine-tune model: https://drive.google.com/drive/folders/1T-
-j_NpkeY8S6ewVhqgMISuTzK-EG7ufe?usp=drive_link
+Link to Pretrained and fine-tune model: https://drive.google.com/drive/folders/1T-j_NpkeY8S6ewVhqgMISuTzK-EG7ufe?usp=drive_link
 
 
 ### Citations and helpful references 
